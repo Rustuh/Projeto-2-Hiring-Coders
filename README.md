@@ -30,7 +30,9 @@ Project implemented with React + react router dom + styled components.
 
   *Na pagina de cadastro de produto, você deve preencher os campos: Categoria, Tipo, Descrição, Preço, Inventory. Em seguida, clicar no botão de "Adicionar Produto". (Os dados são salvos no localstorage).*
 
+## Result (*Resultado*)
 
+https://friendly-hawking-6f7b84.netlify.app
 
 
 
