@@ -8,7 +8,7 @@ import { useHistory } from 'react-router-dom';
 export default function Home() {
   const history = useHistory();
   const HandleClients = () => {
-    history.push("costumer");
+    history.push("customer");
   }
 
   const HandleProducts = () => {
@@ -22,7 +22,7 @@ export default function Home() {
       <S.Title>Register Your Used Electronic</S.Title>
       <S.Intro>Record management system for resale of your electronics. Click Customer to add your record and click the Product button to add the product.</S.Intro>
       <S.Buttons>
-      <S.ButtonC onClick={HandleClients}>Costumer</S.ButtonC>
+      <S.ButtonC onClick={HandleClients}>Customer</S.ButtonC>
       <S.ButtonP onClick={HandleProducts}>Product</S.ButtonP>
       </S.Buttons>
       <S.Footer>

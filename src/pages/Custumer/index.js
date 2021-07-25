@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import * as S from "./styled";
 import { useHistory } from "react-router-dom";
-import logo from '../../assets/images/logo.png';
 
 export default function Costumer() {
   const history = useHistory();
@@ -27,7 +26,7 @@ export default function Costumer() {
 
   return (
     <S.Container>
-    <S.Title>Costumer Management</S.Title>
+    <S.Title>Customer Management</S.Title>
     <S.Intro>Section for adding customers</S.Intro>
     <S.ContainerForm>
       <S.Form onSubmit={handleSubmit}>
@@ -69,7 +68,7 @@ export default function Costumer() {
         <S.Back type="button" onClick={HandleBack}>
           Back
         </S.Back>
-        <S.Add type="submit" >Add Costumer</S.Add>
+        <S.Add type="submit" >Add Customer</S.Add>
       </S.Buttons>
           
       <S.Footer>

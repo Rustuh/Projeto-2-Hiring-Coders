@@ -1,7 +1,7 @@
 import React, { useState }from 'react';
 import * as S from './styled'
 import { useHistory } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
+
 
 export default function Products() {
   const history =useHistory();
