@@ -1,5 +1,34 @@
-##
+# Challenge #2 Hiring Coders - Registration Management
+*Desafio#2 Hiring Coders - Gestão de Cadastros*
 
+- Creation of a system for registering products and customer data
+Customer, address and product data must be properly structured
+Data saved in localstorage.
+
+*Criação de um sistema para cadastro de produtos e dados de clientes
+Os dados de clientes, endereços e produtos devem estar devidamente estruturados
+Dados salvos no localstorage*
+
+## Technology Used (*Tecnologias usadas*)
+
+
+Project implemented with React + react router dom + styled components.
+
+*Projeto implementado com React + react router dom + styled components.*
+
+## Functionality (*Funcionabilidade*)
+
+- On the home page, you can register customer or product. By clicking on the button, you are redirected to the specific registration page.
+  
+  *Na pagina inicial, você pode cadastrar cliente ou produto. Clicando no botão, voce é redirecionado para pagina de cadastro especifica.*
+  
+- On the customer registration page, you must fill in the fields: Name, CPF, E-mail, Phone. Then click on the "Add Customer" button. (Data is saved in localstorage).
+
+  *Na pagina de cadastro de cliente, você deve preencher os campos: Nome, CPF, E-mail, Telefone. Em seguida, clicar no botão de "adicionar cliente". (Os dados são salvos no localstorage).*
+  
+- On the product registration page, you must fill in the fields: Category, Type, Description, Price, Inventory. Then click on the "Add Product" button. (Data is saved in localstorage).
+
+  *Na pagina de cadastro de produto, você deve preencher os campos: Categoria, Tipo, Descrição, Preço, Inventory. Em seguida, clicar no botão de "Adicionar Produto". (Os dados são salvos no localstorage).*
 
 
 
